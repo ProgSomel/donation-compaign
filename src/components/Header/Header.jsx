@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Banner from "../Banner/Banner";
 
 const Header = () => {
 
@@ -24,8 +25,8 @@ const Header = () => {
 
         </div>
 
-        <ul className={`md:flex absolute md:static ${
-            open === true ? "top-24" : "-top-60"
+        <ul className={`md:flex absolute md:static  ${
+            open === true ? "top-24 bg-yellow-300 shadow-2xl p-3  rounded-lg " : "-top-60 bg-none shadow-none"
         }`}>
           <li className="mr-8">
             <NavLink
@@ -63,6 +64,11 @@ const Header = () => {
         </ul>
       </div>
       </nav>
+
+      {/* Banner  */}
+      <div className="mt-5">
+              <Banner></Banner>
+      </div>
     </div>
   );
 };
