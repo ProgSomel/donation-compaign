@@ -30,7 +30,7 @@ const Card = ({ card }) => {
     
       <div>
         <Link to={`/cardDetails/${id}`}>
-        <div style={cardStyle} className="card bg-base-100 shadow-xl">
+        <div style={cardStyle} className=" bg-base-100 shadow-xl">
       <figure>
         <img className="w-full" src={backgroundImage} />
       </figure>

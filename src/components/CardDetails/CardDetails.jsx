@@ -8,20 +8,18 @@ const CardDetails = () => {
 
     const {id} = useParams();
     const idInt = parseInt(id);
-    console.log(typeof id);
     
     const cards = useLoaderData();
 
     useEffect(() =>{
         const clickCard = cards.find(card => card.id === idInt);
-        console.log(clickCard);
-        setCardd(clickCard);
+        setCard(clickCard);
     },[id, cards]);
 
 
     return (
         <div>
-            <CardDetail ></CardDetail>
+            <CardDetail card={card}></CardDetail>
         </div>
     );
 };

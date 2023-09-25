@@ -1,5 +1,0 @@
-/* Add this to your CSS file */
-.card-grid > div:nth-child(odd) {
-    flex-direction: row-reverse;
-  }
-  
