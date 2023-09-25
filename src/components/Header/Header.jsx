@@ -25,8 +25,8 @@ const Header = () => {
 
         </div>
 
-        <ul className={`md:flex absolute md:static  ${
-            open === true ? "top-24 bg-yellow-300 shadow-2xl p-3  rounded-lg " : "-top-60 bg-none shadow-none"
+        <ul className={`md:flex absolute duration-1000 md:static  ${
+            open === true ? "top-24 bg-yellow-300 shadow-2xl p-3  rounded-lg z-20 " : "-top-60 bg-none shadow-none"
         }`}>
           <li className="mr-8">
             <NavLink
@@ -65,10 +65,7 @@ const Header = () => {
       </div>
       </nav>
 
-      {/* Banner  */}
-      <div className="mt-5">
-              <Banner></Banner>
-      </div>
+      
     </div>
   );
 };

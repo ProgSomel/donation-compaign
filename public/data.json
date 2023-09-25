@@ -3,132 +3,135 @@
     "id": 1,
     "backgroundImage": "https://i.ibb.co/XDv31kd/Health.png",
     "categoryName": "Health",
-    "title": "Vitamin Supplements",
+    "title": "Clean water for children",
     "description": "Enhance your overall health and well-being with our premium vitamin supplements. Our carefully crafted supplements are designed to provide your body with essential nutrients, strengthen your immune system, and boost your energy levels. Whether you're looking to improve your daily nutrition or address specific health concerns, our vitamin supplements are the ideal choice. Take the first step towards a healthier you today!",
     "price": 1999,
-    "cardBackgroundColor": "#E5F3FF",
-    "categoryNameBackgroundColor": "#0066CC",
-    "textColor": "#0066CC"
+    "cardBackgroundColor": " #0052FF26",
+    "categoryNameBackgroundColor": "#0052FF33 ",
+    "textColor": "blue"
   },
   {
     "id": 2,
     "backgroundImage": "https://i.ibb.co/YP7RbHp/Education.png",
     "categoryName": "Education",
-    "title": "Programming Fundamentals",
+    "title": "Good education",
     "description": "Master the basics of programming with our comprehensive course. Whether you're a beginner or have some coding experience, our course will equip you with the fundamental skills and knowledge to excel in the world of programming. Start your coding journey today!",
     "price": 4999,
-    "cardBackgroundColor": "#E0FFFF",
-    "categoryNameBackgroundColor": "#008080",
-    "textColor": "#008080"
+    "cardBackgroundColor": "#FF444A26",
+    "categoryNameBackgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
   },
   {
     "id": 3,
     "backgroundImage": "https://i.ibb.co/k31GY4j/Clothing.png",
     "categoryName": "Clothing",
-    "title": "Casual T-Shirts",
+    "title": "Used Clothing Drive",
     "description": "Stay stylish and comfortable with our collection of casual tees. Our t-shirts are made from high-quality materials and come in a variety of colors and designs. Whether you're going for a relaxed look or pairing it with your favorite jeans, our casual t-shirts are a versatile addition to your wardrobe.",
     "price": 2499,
-    "cardBackgroundColor": "#FFD700",
-    "categoryNameBackgroundColor": "#FF4500",
-    "textColor": "#FF4500"
+    "cardBackgroundColor": "#79C23F26",
+    "categoryNameBackgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
   },
   {
     "id": 4,
     "backgroundImage": "https://i.ibb.co/P6f09HH/Food.png",
     "categoryName": "Food",
-    "title": "Gourmet Cuisine",
+    "title": "Better Food for Everyone",
     "description": "Indulge in exquisite gourmet dishes prepared by top chefs. Our gourmet cuisine offers a culinary experience like no other, with a menu featuring a fusion of flavors and high-quality ingredients. Treat yourself to a memorable dining experience with our gourmet dishes.",
     "price": 4999,
-    "cardBackgroundColor": "#F5DEB3",
-    "categoryNameBackgroundColor": "#228B22",
-    "textColor": "#228B22"
+    "cardBackgroundColor": "#F8714726",
+    "categoryNameBackgroundColor": "#F8714726",
+    "textColor": "#F87147"
   },
+  
+  
+  
   {
-    "id": 5,
-    "backgroundImage": "https://i.ibb.co/XDv31kd/Health.png",
-    "categoryName": "Health",
-    "title": "Yoga and Meditation",
-    "description": "Discover inner peace, balance, and mental well-being through our yoga and meditation programs. Our expert instructors will guide you on a transformative journey to reduce stress, increase mindfulness, and improve your overall mental and emotional health. Whether you're a beginner or an experienced practitioner, our classes are designed to meet your needs. Start your journey to a calmer and more centered self with us today!",
-    "price": 2999,
-    "cardBackgroundColor": "#F0E68C",
-    "categoryNameBackgroundColor": "#7FFF00",
-    "textColor": "#7FFF00"
-  },
-  {
-    "id": 6,
-    "backgroundImage": "https://i.ibb.co/YP7RbHp/Education.png",
-    "categoryName": "Education",
-    "title": "Language Learning",
-    "description": "Embark on a language-learning adventure with our immersive courses. Whether you're planning to travel, improve your career prospects, or simply expand your horizons, our language courses offer a fun and effective way to become proficient in a new language. Start your linguistic journey with us today!",
-    "price": 3999,
-    "cardBackgroundColor": "#F4A460",
-    "categoryNameBackgroundColor": "#B22222",
-    "textColor": "#B22222"
+    "id": 8,
+    "backgroundImage": "https://i.ibb.co/P6f09HH/Food.png",
+    "categoryName": "Food",
+    "title": "Better Food for Everyone",
+    "description": "Nourish your body with our collection of healthy and delicious recipes. Whether you're a seasoned chef or just starting in the kitchen, our recipes are designed to make cooking enjoyable and nutritious. Explore a variety of dishes that promote well-being and make healthy eating a part of your lifestyle.",
+    "price": 3499,
+    "cardBackgroundColor": "#F8714726",
+    "categoryNameBackgroundColor": "#F8714726",
+    "textColor": "#F87147"
   },
   {
     "id": 7,
     "backgroundImage": "https://i.ibb.co/k31GY4j/Clothing.png",
     "categoryName": "Clothing",
-    "title": "Formal Attire",
+    "title": "Used Clothing Drive",
     "description": "Dress to impress with our elegant formal clothing options. Whether you're attending a special event, business meeting, or dinner party, our formal attire collection offers a range of sophisticated choices to elevate your style. Make a lasting impression with our premium formal wear.",
     "price": 7999,
-    "cardBackgroundColor": "#FFA07A",
-    "categoryNameBackgroundColor": "#8B4513",
-    "textColor": "#8B4513"
+    "cardBackgroundColor": "#79C23F26",
+    "categoryNameBackgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
   },
   {
-    "id": 8,
-    "backgroundImage": "https://i.ibb.co/P6f09HH/Food.png",
-    "categoryName": "Food",
-    "title": "Healthy Recipes",
-    "description": "Nourish your body with our collection of healthy and delicious recipes. Whether you're a seasoned chef or just starting in the kitchen, our recipes are designed to make cooking enjoyable and nutritious. Explore a variety of dishes that promote well-being and make healthy eating a part of your lifestyle.",
-    "price": 3499,
-    "cardBackgroundColor": "#FFE4B5",
-    "categoryNameBackgroundColor": "#D2691E",
-    "textColor": "#D2691E"
+    "id": 6,
+    "backgroundImage": "https://i.ibb.co/YP7RbHp/Education.png",
+    "categoryName": "Education",
+    "title": "Good education",
+    "description": "Embark on a language-learning adventure with our immersive courses. Whether you're planning to travel, improve your career prospects, or simply expand your horizons, our language courses offer a fun and effective way to become proficient in a new language. Start your linguistic journey with us today!",
+    "price": 3999,
+    "cardBackgroundColor": "#FF444A26",
+    "categoryNameBackgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
+  },
+  {
+    "id": 5,
+    "backgroundImage": "https://i.ibb.co/XDv31kd/Health.png",
+    "categoryName": "Health",
+    "title": "Clean water for children",
+    "description": "Discover inner peace, balance, and mental well-being through our yoga and meditation programs. Our expert instructors will guide you on a transformative journey to reduce stress, increase mindfulness, and improve your overall mental and emotional health. Whether you're a beginner or an experienced practitioner, our classes are designed to meet your needs. Start your journey to a calmer and more centered self with us today!",
+    "price": 2999,
+    "cardBackgroundColor": "  #0052FF26",
+    "categoryNameBackgroundColor": "#0052FF33",
+    "textColor": "blue"
   },
   {
     "id": 9,
     "backgroundImage": "https://i.ibb.co/XDv31kd/Health.png",
     "categoryName": "Health",
-    "title": "Fitness Equipment",
+    "title": "Clean water for children",
     "description": "Stay active and fit with our wide range of fitness equipment. From cardio machines to strength training gear, we have everything you need to achieve your fitness goals. Our equipment is designed for all fitness levels, from beginners to seasoned athletes. Start your fitness journey with us today!",
     "price": 3499,
-    "cardBackgroundColor": "#A9DFBF",
-    "categoryNameBackgroundColor": "#00AA55",
-    "textColor": "#00AA55"
+    "cardBackgroundColor": "#0052FF26",
+    "categoryNameBackgroundColor": "#0052FF33",
+    "textColor": "blue"
   },
   {
     "id": 10,
     "backgroundImage": "https://i.ibb.co/YP7RbHp/Education.png",
     "categoryName": "Education",
-    "title": "Art and Creativity",
+    "title": "Good education",
     "description": "Unleash your artistic talents with our creative courses. Whether you're interested in painting, drawing, sculpting, or any other form of artistic expression, our courses offer a supportive and inspiring environment to explore your creativity. Join us and let your imagination soar!",
     "price": 2999,
-    "cardBackgroundColor": "#F2D7D5",
-    "categoryNameBackgroundColor": "#D9534F",
-    "textColor": "#D9534F"
+    "cardBackgroundColor": "#FF444A26",
+    "categoryNameBackgroundColor": "#FF444A26",
+    "textColor": "#FF444A"
   },
   {
     "id": 11,
     "backgroundImage": "https://i.ibb.co/k31GY4j/Clothing.png",
     "categoryName": "Clothing",
-    "title": "Athletic Wear",
+    "title": "Used Clothing Drive",
     "description": "Elevate your workouts with our high-performance athletic wear. Our athletic wear is designed for maximum comfort, flexibility, and style. Whether you're hitting the gym or going for a run, our collection will help you achieve your fitness goals while looking great. Train in style with us!",
     "price": 3499,
-    "cardBackgroundColor": "#D8BFD8",
-    "categoryNameBackgroundColor": "#9932CC",
-    "textColor": "#9932CC"
+    "cardBackgroundColor": "#79C23F26",
+    "categoryNameBackgroundColor": "#79C23F26",
+    "textColor": "#79C23F"
   },
   {
     "id": 12,
     "backgroundImage": "https://i.ibb.co/P6f09HH/Food.png",
     "categoryName": "Food",
-    "title": "International Flavors",
+    "title": "Better Food for Everyone",
     "description": "Embark on a culinary journey around the world with our diverse international cuisine offerings. From spicy Indian curries to savory Italian pasta dishes, our menu brings global flavors to your plate. Expand your palate and savor the rich and authentic tastes of international cuisine.",
     "price": 1999,
-    "cardBackgroundColor": "#FFDAB9",
-    "categoryNameBackgroundColor": "#FF6347",
-    "textColor": "#FF6347"
+    "cardBackgroundColor": "#F8714726",
+    "categoryNameBackgroundColor": "#F8714726",
+    "textColor": "#F87147"
   }
 ]
