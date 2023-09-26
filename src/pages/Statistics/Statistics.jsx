@@ -72,7 +72,7 @@ const Statistics = () => {
       </PieChart>
       <div className='flex flex-col md:flex-row justify-center items-center ml-5 md:ml-0 gap-8 2'>
         <div className='flex h-0 justify-center items-center gap-2'>
-          Total Donation
+          My Donation
           <div className=' border-8 border-green-500  w-[100px] h-0;
 height: 12px; '>
               
