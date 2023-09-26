@@ -9,15 +9,15 @@ const Header = () => {
     const [open, setOpen] = useState(false);
 
   return (
-    <div className="mt-5">
-      <nav className="flex flex-col md:flex-row justify-between items-center">
+    <div className=" relative top-[33px]  z-40 max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16">
+      <nav className="   w-full  flex flex-col md:flex-row justify-between items-center">
       <div>
         <Logo></Logo>
       </div>
 
       <div >
 
-        <div className=" flex justify-center mt-3 md:hidden" onClick={()=> setOpen(!open)}>
+        <div className=" flex justify-center my-5 md:hidden" onClick={()=> setOpen(!open)}>
 
         {
             open ==true ? <AiOutlineClose></AiOutlineClose>: <AiOutlineMenu></AiOutlineMenu>

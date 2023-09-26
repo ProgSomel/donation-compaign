@@ -15,7 +15,7 @@ const Donations = () => {
       }, [donations]);
     
     return (
-        <div>
+        <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16">
                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 md:mt-16 mb-7">
             {
                 donations ?  isSeeAll ? (donations.map(donation => <Donation key={donation.id} donation={donation}></Donation>)) : (donations?.slice(0,4).map(donation => <Donation key={donation.id} donation={donation}></Donation>)): ""
@@ -24,7 +24,7 @@ const Donations = () => {
         </div>
         <div className="text-center mb-8">
             {
-               donations ? donations.length > 4 &&(isSeeAll ? <button className="bg-red-300 px-2 py-1 rounded-lg" onClick={()=> setSeeAll(!isSeeAll)}>See less</button>: <button className="bg-green-300 px-2 py-1 rounded-lg " onClick={()=>setSeeAll(!isSeeAll)}>See All</button> ) :""
+               donations ? donations.length > 4 &&(isSeeAll ? "": <button className="bg-green-300 px-2 py-1 rounded-lg " onClick={()=>setSeeAll(!isSeeAll)}>See All</button> ) :""
             }
             </div>
             

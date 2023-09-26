@@ -18,7 +18,7 @@ const CardDetails = () => {
 
 
     return (
-        <div>
+        <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16 py-5 mt-5">
             <CardDetail card={card}></CardDetail>
         </div>
     );

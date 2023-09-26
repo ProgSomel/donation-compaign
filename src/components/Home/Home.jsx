@@ -4,19 +4,19 @@ import Cards from "../Cards/Cards";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
+  const cards = useLoaderData();
 
-    const cards = useLoaderData();
-
-
-    return (
-        <div>
-            {/* Banner  */}
-      <div className="mt-5">
-              <Banner></Banner>
+  return (
+    <div className="absolute ">
+      {/* Banner  */}
+      <div className=" relative -top-16    w-full">
+        <Banner></Banner>
       </div>
-            <Cards cards={cards}></Cards>
-        </div>
-    );
+      <div>
+        <Cards cards={cards}></Cards>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
