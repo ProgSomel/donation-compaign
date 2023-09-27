@@ -12,7 +12,7 @@ const Header = () => {
     <div className=" relative top-[33px]  z-40 max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16">
       <nav className="   w-full  flex flex-col md:flex-row justify-between items-center">
       <div>
-        <Logo></Logo>
+        <img src="/Logo.png" alt="" />
       </div>
 
       <div >
