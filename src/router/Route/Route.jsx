@@ -4,11 +4,13 @@ import Home from "../../components/Home/Home";
 import CardDetails from "../../components/CardDetails/CardDetails";
 import Donations from "../../pages/Donations/Donations";
 import Statistics from "../../pages/Statistics/Statistics";
+import Error from "../../components/Error/Error";
 
 const myCreatedRoute = createBrowserRouter([
     {
         path: '/',
         element: <MainLayouts></MainLayouts>,
+        errorElement: <Error></Error> ,
         children: [
             {
                 path: '/',
